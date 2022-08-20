@@ -49,3 +49,13 @@ TextStyle getLightTextStyle(
     color,
   );
 }
+
+TextStyle getMediumTextStyle(
+    {double fontSize = FontSizeConstant.size12, required Color color}) {
+  return _getTextStyle(
+    fontSize,
+    FontFamilyConstant.fontFamily,
+    FontWeightConstant.medium,
+    color,
+  );
+}
