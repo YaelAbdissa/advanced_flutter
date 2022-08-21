@@ -1,6 +1,6 @@
-import 'package:advanced_flutter/presentation/constants/color_constant.dart';
-import 'package:advanced_flutter/presentation/constants/font_constant.dart';
-import 'package:advanced_flutter/presentation/constants/value_constant.dart';
+import 'color_constant.dart';
+import 'font_constant.dart';
+import 'value_constant.dart';
 import 'package:flutter/material.dart';
 
 import 'style_constant.dart';

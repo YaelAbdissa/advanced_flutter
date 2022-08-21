@@ -1,4 +1,4 @@
-import 'package:advanced_flutter/presentation/constants/font_constant.dart';
+import 'font_constant.dart';
 import 'package:flutter/material.dart';
 
 TextStyle _getTextStyle(
