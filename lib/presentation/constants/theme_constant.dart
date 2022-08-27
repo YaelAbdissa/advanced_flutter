@@ -73,6 +73,10 @@ ThemeData getApplicationTheme() {
       bodyText1: getRegularTextStyle(
         color: ColorConstant.greyColor,
       ),
+      button: getRegularTextStyle(
+        color: ColorConstant.primaryColor,
+        fontSize: FontSizeConstant.size16,
+      ),
     ),
 
     // input decoration theme

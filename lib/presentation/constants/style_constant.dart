@@ -30,8 +30,10 @@ TextStyle getBoldTextStyle(
   );
 }
 
-TextStyle getSemiBoldTextStyle(
-    {double fontSize = FontSizeConstant.size12, required Color color}) {
+TextStyle getSemiBoldTextStyle({
+  double fontSize = FontSizeConstant.size12,
+  required Color color,
+}) {
   return _getTextStyle(
     fontSize,
     FontFamilyConstant.fontFamily,
