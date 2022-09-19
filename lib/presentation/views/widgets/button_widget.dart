@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../constants/value_constant.dart';
+
 class ButtonWidget extends StatelessWidget {
   final VoidCallback onClick;
   final Widget child;
@@ -13,7 +15,11 @@ class ButtonWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () => onClick(),
-      child: child,
+      child: Container(
+        margin: EdgeInsets.symmetric(
+            horizontal: AppSize.s14, vertical: AppSize.s12),
+        child: child,
+      ),
     );
   }
 }

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
+import '../../../../domain/model.dart';
 import '../../../constants/value_constant.dart';
 import '../../widgets/app_text_widget.dart';
 import '../../widgets/svg_images_widget.dart';
 import '../../widgets/vertical_spacing.dart';
-import '../on_boarding_screen.dart';
 
 class OnBoardingPageViewWidget extends StatelessWidget {
   final SliderObject sliderObject;
